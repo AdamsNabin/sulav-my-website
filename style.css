@@ -41,13 +41,36 @@ body {
   font-weight: bold;
 }
 
+.hidden {
+  display: none;
+}
+
 @media (max-width: 700px) {
+  .top-left {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .bars:hover {
+    color: #fffd8c;
+  }
+
   .top-nav-bar {
-    height: 60vh;
+    height: 8vh;
     flex-direction: column;
   }
 
   .nav-items {
     flex-direction: column;
+  }
+
+  .hidden {
+    display: block;
+  }
+
+  .hide {
+    display: none;
   }
 }
