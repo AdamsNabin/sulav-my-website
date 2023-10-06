@@ -19,6 +19,7 @@ body {
 
 .nav-items {
   width: 50%;
+  margin: 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,12 +28,13 @@ body {
   font-size: 20px;
 }
 
-.nav-items p {
+.nav-items li {
   cursor: pointer;
   margin: 0px;
+  list-style: none;
 }
 
-.nav-items p:hover {
+.nav-items li:hover {
   color: #fffd8c;
 }
 
@@ -71,7 +73,7 @@ body {
     flex-direction: column;
   }
 
-  .nav-items p {
+  .nav-items li {
     margin: 20px 0px;
   }
 
