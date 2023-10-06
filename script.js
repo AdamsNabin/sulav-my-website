@@ -5,11 +5,9 @@ btn_bars.addEventListener('click', function(){
     if(nav_items.classList.contains('hide'))
     {
         nav_items.classList.remove('hide');
-        top_nav_bar.style.height = "60vh";
     }
     else
     {
         nav_items.classList.add('hide');
-        top_nav_bar.style.height = "8vh";
     }
 })

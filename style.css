@@ -7,8 +7,8 @@ body {
 
 .top-nav-bar {
   position: fixed;
+  padding: 15px 0px;
   width: 100vw;
-  height: 8vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,6 +29,7 @@ body {
 
 .nav-items p {
   cursor: pointer;
+  margin: 0px;
 }
 
 .nav-items p:hover {
@@ -50,20 +51,28 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 10px;
   }
 
-  .bars:hover {
-    color: #fffd8c;
+  .my-name {
+    margin-left: 20px;
+  }
+
+  .bars {
+    margin-right: 20px;
   }
 
   .top-nav-bar {
-    height: 8vh;
     flex-direction: column;
   }
 
   .nav-items {
     flex-direction: column;
+  }
+
+  .nav-items p {
+    margin: 20px 0px;
   }
 
   .hidden {
